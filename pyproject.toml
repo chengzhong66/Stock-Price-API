@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "stock_price_cz"
+version = "0.1.0"
+description = "stock price analysis"
+authors = ["chengzhong666 <71298582+chengzhong666@users.noreply.github.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.1"
+pytest-cov = "^2.10.1"
+codecov = "^2.1.11"
+python-semantic-release = "^7.7.0"
+flake8 = "^3.8.4"
+sphinx = "^3.3.1"
+sphinxcontrib-napoleon = "^0.7"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
