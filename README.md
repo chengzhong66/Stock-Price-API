@@ -1,5 +1,5 @@
 # Stock_Price
-This package is designed to obtain historical data and implement analysis with Finnhub API.
+This package is designed to obtain historical data and implement analysis with Finnhub API. <br>
 API documentation: https://finnhub.io/docs/api#introduction
 
 ## Installation
