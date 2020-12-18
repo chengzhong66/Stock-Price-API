@@ -1,9 +1,11 @@
 [tool.poetry]
 name = "stock_price_cz"
-version = "0.1.0"
+version = "0.1.1"
 description = "stock price analysis"
 authors = ["chengzhong666 <71298582+chengzhong666@users.noreply.github.com>"]
 license = "MIT"
+readme = "README.md"
+
 
 [tool.poetry.dependencies]
 python = "^3.8"
