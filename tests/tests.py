@@ -25,10 +25,6 @@ def test_financial_reported(str):
     financial_reported = stock_info.financial_reported(str)
     assert type(financial_reported) == dict
 
-def test_ipo_info(str,*args):
-    ipo = stock_info.ipo_info(str,*args)
-    assert type(ipo) == list
-
 def test_recommendation(str):
     recommendation = stock_info.recommendation(str)
     assert type(recommendation) == dict

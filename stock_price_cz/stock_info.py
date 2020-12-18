@@ -247,7 +247,7 @@ def financial_reported(str):
     r = requests.get(inquiry)
     print(r.json())
 
-def ipo_info(str,*args):
+def ipo_info(str1,str2):
     """
     This is a function to obtain company information that offered their first public offereings during a certain date.
 
@@ -289,7 +289,7 @@ def ipo_info(str,*args):
   ]
 }
     """
-    inquiry = 'https://finnhub.io/api/v1/calendar/ipo?from=' + str + '&to=' + *args '&token='
+    inquiry = 'https://finnhub.io/api/v1/calendar/ipo?from=' + str1 + '&to=' + str2 + '&token='
     r = requests.get(inquiry)
     print(r.json())
 

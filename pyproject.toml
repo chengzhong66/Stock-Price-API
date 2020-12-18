@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "stock_price_cz"
-version = "0.1.1"
+version = "0.1.2"
 description = "stock price analysis"
 authors = ["chengzhong666 <71298582+chengzhong666@users.noreply.github.com>"]
 license = "MIT"
